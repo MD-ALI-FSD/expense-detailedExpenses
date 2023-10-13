@@ -43,7 +43,7 @@ exports.postForgotPassword = async (req, res) => {
   const defaultClient = await Sib.ApiClient.instance;
   var apiKey = await defaultClient.authentications['api-key'];
   const transEmailApi = await  new Sib.TransactionalEmailsApi();
-  apiKey.apiKey= "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";
+  apiKey.apiKey= "";
   // apiKey.apiKey= process.env.SENDINBLUE_API_KEY;
 
   
